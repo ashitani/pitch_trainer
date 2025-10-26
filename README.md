@@ -22,7 +22,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. Download sound effects and place them in the audio folder:
+   - Visit [Sound Effect Lab](https://soundeffect-lab.info/sound/anime/)
+   - Download the following files and place them in the `audio/` folder:
+     - `クイズ正解2.mp3` (correct answer sound)
+     - `クイズ不正解1.mp3` (incorrect answer sound)  
+     - `レベルアップ.mp3` (level up sound)
+
+4. Run the application:
 ```bash
 python pitch_trainer.py
 ```
@@ -88,4 +95,10 @@ Required sound files:
 - Verify MIDI device connections
 - Check system MIDI settings
 - Manually select MIDI devices from the app's settings menu
+
+---
+
+## Development
+
+This program and README were created with the assistance of Cursor's Agent mode.
 
