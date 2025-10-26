@@ -2,8 +2,7 @@
 
 A pitch training application with MIDI input/output functionality.
 
-<video src="movie/PitchTrainer.mp4" width="320" height="240" controls></video>
-
+https://github.com/user-attachments/assets/681d9afd-fbf1-418f-bb88-b4e817b7473e
 
 ## Requirements
 
