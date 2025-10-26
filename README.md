@@ -52,9 +52,9 @@ python pitch_trainer.py
 
 - `pitch_trainer.py`: Main application (PyQt5 GUI version)
 - `audio/`: Sound effect files
-  - `OK.mp3`: Correct answer sound
-  - `NG.mp3`: Incorrect answer sound
-  - `LevelUp.mp3`: Level up sound
+  - `クイズ正解2.mp3`: Correct answer sound
+  - `クイズ不正解1.mp3`: Incorrect answer sound
+  - `レベルアップ.mp3`: Level up sound
 
 ## Notes
 
@@ -67,11 +67,15 @@ python pitch_trainer.py
 ## Sound Effects
 
 The sound effects used in this app are obtained from [Sound Effect Lab](https://soundeffect-lab.info/sound/anime/).
-- Correct answer: OK.mp3
-- Incorrect answer: NG.mp3
-- Level up: LevelUp.mp3
 
-These sound effects are provided free of charge for commercial use without requiring credit or links.
+**Important**: Redistribution and direct linking are prohibited by the terms of service. Please download the corresponding files from Sound Effect Lab and place them in the audio folder.
+
+Required sound files:
+  - `クイズ正解2.mp3`: Correct answer sound
+  - `クイズ不正解1.mp3`: Incorrect answer sound
+  - `レベルアップ.mp3`: Level up sound
+
+
 
 ## Troubleshooting
 

@@ -1184,7 +1184,7 @@ class PerfectPitchGUI(QMainWindow):
                 self.piano_keyboard.set_highlighted_note(self.target_note, is_correct=True)
                 
                 # Play correct answer sound effect
-                self.play_sound("OK.mp3")
+                self.play_sound("クイズ正解2.mp3")
                 
                 # Level-up check
                 level_up_occurred = self.check_level_up()
@@ -1204,7 +1204,7 @@ class PerfectPitchGUI(QMainWindow):
                 self.recent_results.append(False)
                 
                 # Play incorrect answer sound effect
-                self.play_sound("NG.mp3")
+                self.play_sound("クイズ不正解1.mp3")
                 
                 # Replay the same problem note
                 QTimer.singleShot(1000, self.replay_current_note)
@@ -1298,7 +1298,7 @@ class PerfectPitchGUI(QMainWindow):
                 self.show_levelup_display()
                 
                 # Play level-up sound effect
-                QTimer.singleShot(500, lambda: self.play_sound("LevelUp.mp3"))
+                QTimer.singleShot(500, lambda: self.play_sound("レベルアップ.mp3"))
                 
                 # Save settings
                 self.save_config()
